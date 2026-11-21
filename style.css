@@ -47,6 +47,9 @@ footer{padding:1.5rem 0 2.5rem;color:var(--muted);font-size:.88rem;border-top:1p
 .tagline{font-weight:600;color:var(--accent);margin:0 0 1.1rem;max-width:60ch}
 .cert img{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:4px;margin-bottom:.8rem}
 .plain{max-width:72ch;padding-left:1.2rem;color:var(--muted)}.plain li{margin:.45rem 0}.plain strong{color:var(--ink)}
+.trow{display:grid;grid-template-columns:210px 1fr;border-top:1px solid var(--line)}.trow:last-child{border-bottom:1px solid var(--line)}.trow b{padding:.7rem 1rem .7rem 0;font-weight:600}.trow span{padding:.7rem 0;color:var(--muted)}
+@media (max-width:640px){.trow{grid-template-columns:1fr}.trow b{padding-bottom:0}.trow span{padding-top:.1rem}}
+.chips .tag{font-size:.9rem;padding:.2rem .8rem;margin:0 .4rem .5rem 0}
 .cap{font-size:.88rem;color:var(--muted);margin:.4rem 0 0}
 .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:1rem;margin-bottom:1rem}
 .step{max-width:72ch;padding:1.6rem 0;border-top:1px solid var(--line)}.step h2{margin-bottom:.5rem}.step p,.step ul{margin:.3rem 0;color:var(--muted)}.step ul{padding-left:1.2rem}
